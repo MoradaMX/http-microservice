@@ -1,0 +1,21 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@mokalli/favorites/(.*)": "<rootDir>/../libs/favorites/src/$1",
+    "@mokalli/favorites": "<rootDir>/../libs/favorites/src",
+    "@mokalli/common/(.*)": "<rootDir>/../libs/common/src/$1",
+    "@mokalli/common": "<rootDir>/../libs/common/src",
+    "@mokalli/mongoose-hide-object-id/(.*)": "<rootDir>/../libs/mongoose-hide-object-id/src/$1",
+    "@mokalli/mongoose-hide-object-id": "<rootDir>/../libs/mongoose-hide-object-id/src"
+  }
+}
