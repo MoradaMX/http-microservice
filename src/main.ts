@@ -15,7 +15,6 @@ async function bootstrap() {
 
   app.useGlobalPipes(new ValidationPipe());
   app.enableCors();
-  app.enableVersioning();
   app.use(volleyball);
 
   const documentBuilder = new DocumentBuilder()
