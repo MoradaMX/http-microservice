@@ -1,4 +1,4 @@
-import { HttpServerConfiguration } from "@mokalli/common";
+import { HttpServerConfiguration } from '@mokalli/common';
 
 export const configLoader = (): ConfigLoader => ({
   server: {
