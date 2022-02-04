@@ -1,6 +1,6 @@
 {
-  "name": "mokalli-favorites",
-  "version": "0.0.1",
+  "name": "http-microservice",
+  "version": "1.0.0",
   "description": "",
   "author": "",
   "private": true,
@@ -23,7 +23,7 @@
     "docker:dev:down": "docker-compose --env-file .env -f docker/develop/docker-compose.yml down",
     "docker:prod:up": "docker-compose --env-file .env -f docker/production/docker-compose.yml up -d --build",
     "docker:prod:down": "docker-compose --env-file .env -f docker/production/docker-compose.yml down",
-    "docker:dev:logs": "docker logs -f microservice",
+    "docker:dev:logs": "docker logs -f http-microservice",
     "dev": "yarn docker:dev:up && yarn docker:dev:logs"
   },
   "dependencies": {
