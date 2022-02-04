@@ -4,7 +4,6 @@ import { Logger, ValidationPipe } from '@nestjs/common';
 import * as volleyball from 'volleyball';
 import { HttpServerConfiguration } from '@mokalli/common';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
-import * as fs from 'fs';
 
 import { AppModule } from './modules/app/app.module';
 
