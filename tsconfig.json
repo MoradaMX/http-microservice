@@ -18,21 +18,11 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@mokalli/favorites": [
-        "libs/favorites/src"
-      ],
-      "@mokalli/favorites/*": [
-        "libs/favorites/src/*"
-      ],
-      "@mokalli/common": [
-        "libs/common/src"
-      ],
-      "@mokalli/common/*": [
-        "libs/common/src/*"
-      ],
-      "@mokalli/mongoose-hide-object-id": [
-        "libs/mongoose-hide-object-id/src"
-      ],
+      "@mokalli/favorites": ["libs/favorites/src"],
+      "@mokalli/favorites/*": ["libs/favorites/src/*"],
+      "@mokalli/common": ["libs/common/src"],
+      "@mokalli/common/*": ["libs/common/src/*"],
+      "@mokalli/mongoose-hide-object-id": ["libs/mongoose-hide-object-id/src"],
       "@mokalli/mongoose-hide-object-id/*": [
         "libs/mongoose-hide-object-id/src/*"
       ]
